@@ -68,7 +68,10 @@ public class TMenuviewroleRltWeb {
     	List<TMenuviewroleRlt> body = requestBean.getBody();
     	boolean deleteByMultiId =false;
     	for (TMenuviewroleRlt tMenuviewroleRlt : body) {
-    		deleteByMultiId = tMenuviewroleRltService.deleteByMultiId(tMenuviewroleRlt);
+    		boolean d = tMenuviewroleRltService.deleteByMultiId(tMenuviewroleRlt);
+    		if (d) {
+    			deleteByMultiId = true;
+			}
 		}
         if (!deleteByMultiId) {
         	return ResultTool.genFailResult(requestBean,"delteerror","删除失败!");

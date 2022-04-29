@@ -24,8 +24,16 @@ public class PMHandAdapter extends HandlerInterceptorAdapter{
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
+		logger.info("请求方式："+request.getMethod());
 		// TODO Auto-generated method stub
+		if("OPTIONS".equals(request.getMethod())) { // aiso通讯需要增加OPTIONS校验
+			ServletHandTool.responseResult(response, ResultTool.genFailResult(request, ResultCode.CHECKOPTINS.code(), ResultCode.CHECKOPTINS.msg()));
+			return false;
+		}
+		
 		String token = request.getHeader("Authorization"); // 获取密钥
+		
+		
 		if (StringUtils.isBlank(token)) {
 			ServletHandTool.responseResult(response, ResultTool.genFailResult(request, ResultCode.AUTHORIZEDISNULL.code(), ResultCode.AUTHORIZEDISNULL.msg()));
 			return false;

@@ -22,12 +22,14 @@ E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\model\ResponseBean.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\web\LoginWeb.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\model\SysHead.java
+E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\service\imp\TUserloginInfoServiceImp.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\model\RequestBean.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\core\AbstractService.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\model\TUserdetailInfo.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\configurer\MybatisConfigurer.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\filter\RequestBodyReaderWrapper.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\configurer\PMHandAdapter.java
+E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\web\TUserloginInfoWeb.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\core\ResultCode.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\mapper\TMenuviewInfoMapper.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\service\imp\TMenuviewInfoServiceImp.java
@@ -38,6 +40,8 @@ E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\configurer\WebMvcConfigurer.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\core\BaseBean.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\mapper\TMenuviewroleRltMapper.java
+E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\model\TUserloginInfo.java
+E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\mapper\TUserloginInfoMapper.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\aop\CheckRequestAspect.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\tool\ServletHandTool.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\filter\RequestBodyReaderFilter.java
@@ -50,3 +54,4 @@ E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\service\imp\TMenuviewroleRltServiceImp.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\core\BaseDefaultMapper.java
 E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\model\AppHead.java
+E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\src\main\java\com\rvbs\pm\service\interfaces\TUserloginInfoService.java

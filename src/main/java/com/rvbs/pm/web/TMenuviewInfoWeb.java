@@ -70,7 +70,10 @@ public class TMenuviewInfoWeb {
     	List<TMenuviewInfo> body = requestBean.getBody();
     	boolean deleteByMultiId = false;
     	for (TMenuviewInfo tMenuviewInfo : body) {
-    		deleteByMultiId = tMenuviewInfoService.deleteByMultiId(tMenuviewInfo);
+    		boolean b = tMenuviewInfoService.deleteByMultiId(tMenuviewInfo);
+    		if (b) {
+    			deleteByMultiId = true;
+			}
 		}
         if (!deleteByMultiId) {
         	return ResultTool.genFailResult(requestBean,"deleteerroe02","删除失败！");

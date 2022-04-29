@@ -113,7 +113,7 @@ public class WebMvcConfigurer extends WebMvcConfigurationSupport {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
     	logger.info("注册拦截器");
-    	registry.addInterceptor(new PMHandAdapter()).addPathPatterns("/api/**");
+    	registry.addInterceptor(new PMHandAdapter()).excludePathPatterns("/user/login");
     }
     @Bean
     public FilterRegistrationBean<RequestBodyReaderFilter> Filters() {

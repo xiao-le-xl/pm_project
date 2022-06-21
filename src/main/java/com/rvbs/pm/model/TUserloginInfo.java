@@ -1,5 +1,6 @@
 package com.rvbs.pm.model;
 
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.rvbs.pm.core.BaseBean;
 import javax.persistence.*;
 
@@ -8,7 +9,7 @@ public class TUserloginInfo extends BaseBean {
     /**
      * 工号(公司工号)
      */
-    @Id
+	@TableId
     @Column(name = "USERID")
     private String userid;
 

@@ -27,7 +27,7 @@ public class PMHandAdapter extends HandlerInterceptorAdapter{
 		logger.info("请求方式："+request.getMethod());
 		// TODO Auto-generated method stub
 		if("OPTIONS".equals(request.getMethod())) { // aiso通讯需要增加OPTIONS校验
-			ServletHandTool.responseResult(response, ResultTool.genFailResult(request, ResultCode.CHECKOPTINS.code(), ResultCode.CHECKOPTINS.msg()));
+			ServletHandTool.responseCorsResult(response, "OPTIONS");
 			return false;
 		}
 		
@@ -43,9 +43,9 @@ public class PMHandAdapter extends HandlerInterceptorAdapter{
 		String uid = ((Map<String, String>)body.get("app_head")).get("userId"); // 请求数据：用户id
 		Map<String, Object> tokenMap = null;
 		try {
-			tokenMap = JwtsUtil.unSign(token); // 解密token
+			tokenMap = JwtsUtil.unSign(token.replaceFirst("Bearer", "")); // 解密token
 			if (tokenMap == null || StringUtils.isBlank((String) tokenMap.get("userId"))) {
-				ServletHandTool.responseResult(response, ResultTool.genFailResult(request, ResultCode.AUTHORIZEDISNULL.code(), ResultCode.AUTHORIZEDISNULL.msg()));
+				ServletHandTool.responseResult(response, ResultTool.genFailResult(request, ResultCode.AUTHORIZEDISERROR.code(), ResultCode.AUTHORIZEDISERROR.msg()));
 				return false;
 			}else if(!((String) tokenMap.get("userId")).equals(uid)) {
 				logger.error(ServletHandTool.getBody(request));

@@ -1,0 +1,291 @@
+2022-05-09 08:56:52.801 [restartedMain] INFO  com.rvbs.pm.application.Application - Starting Application on LAPTOP-0DG0FV29 with PID 2244 (started by 夏荫荫 in E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management)
+2022-05-09 08:56:52.803 [restartedMain] INFO  com.rvbs.pm.application.Application - The following profiles are active: dev
+2022-05-09 08:56:52.854 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\夏荫荫\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-05-09 08:56:52.854 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-09 08:56:52.855 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-09 08:56:53.527 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'loginMapper' and 'com.rvbs.pm.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:56:53.527 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewInfoMapper' and 'com.rvbs.pm.mapper.TMenuviewInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:56:53.527 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewroleRltMapper' and 'com.rvbs.pm.mapper.TMenuviewroleRltMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:56:53.527 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserdetailInfoMapper' and 'com.rvbs.pm.mapper.TUserdetailInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:56:53.528 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserloginInfoMapper' and 'com.rvbs.pm.mapper.TUserloginInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:56:53.528 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.rvbs.pm.mapper]' package. Please check your configuration.
+2022-05-09 08:56:53.528 [restartedMain] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-05-09 08:56:54.064 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5635 (http)
+2022-05-09 08:56:54.072 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5635"]
+2022-05-09 08:56:54.072 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-09 08:56:54.072 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-05-09 08:56:54.143 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-09 08:56:54.144 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1289 ms
+2022-05-09 08:56:54.225 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-05-09 08:56:54.330 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-05-09 08:56:54.754 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectLoginModel
+2022-05-09 08:56:54.847 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.insert
+2022-05-09 08:56:54.852 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.delete
+2022-05-09 08:56:54.855 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteByMap
+2022-05-09 08:56:54.872 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteById
+2022-05-09 08:56:54.873 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteBatchIds
+2022-05-09 08:56:54.878 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.update
+2022-05-09 08:56:54.882 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.updateById
+2022-05-09 08:56:54.883 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectById
+2022-05-09 08:56:54.884 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectBatchIds
+2022-05-09 08:56:54.886 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectByMap
+2022-05-09 08:56:54.889 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectOne
+2022-05-09 08:56:54.891 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectCount
+2022-05-09 08:56:54.894 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMaps
+2022-05-09 08:56:54.897 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMapsPage
+2022-05-09 08:56:54.899 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectObjs
+2022-05-09 08:56:54.902 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectList
+2022-05-09 08:56:54.904 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectPage
+2022-05-09 08:56:54.905 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-09 08:56:54.906 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-09 08:56:54.906 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-09 08:56:54.978 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.insert
+2022-05-09 08:56:54.980 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.delete
+2022-05-09 08:56:54.981 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMap
+2022-05-09 08:56:54.982 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteById
+2022-05-09 08:56:54.983 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteBatchIds
+2022-05-09 08:56:54.985 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.update
+2022-05-09 08:56:54.987 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateById
+2022-05-09 08:56:54.987 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectById
+2022-05-09 08:56:54.988 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectBatchIds
+2022-05-09 08:56:54.989 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMap
+2022-05-09 08:56:54.991 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectOne
+2022-05-09 08:56:54.993 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectCount
+2022-05-09 08:56:54.994 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMaps
+2022-05-09 08:56:54.995 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMapsPage
+2022-05-09 08:56:54.997 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectObjs
+2022-05-09 08:56:54.998 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectList
+2022-05-09 08:56:55.000 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectPage
+2022-05-09 08:56:55.000 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMultiId
+2022-05-09 08:56:55.001 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateByMultiId
+2022-05-09 08:56:55.002 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMultiId
+2022-05-09 08:56:55.033 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateEnabelFlag
+2022-05-09 08:56:55.034 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.findAllMenu
+2022-05-09 08:56:55.036 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.insert
+2022-05-09 08:56:55.038 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.delete
+2022-05-09 08:56:55.039 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMap
+2022-05-09 08:56:55.040 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteById
+2022-05-09 08:56:55.041 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteBatchIds
+2022-05-09 08:56:55.043 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.update
+2022-05-09 08:56:55.044 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateById
+2022-05-09 08:56:55.044 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectById
+2022-05-09 08:56:55.045 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectBatchIds
+2022-05-09 08:56:55.046 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMap
+2022-05-09 08:56:55.047 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectOne
+2022-05-09 08:56:55.048 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectCount
+2022-05-09 08:56:55.049 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMaps
+2022-05-09 08:56:55.051 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMapsPage
+2022-05-09 08:56:55.052 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectObjs
+2022-05-09 08:56:55.053 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectList
+2022-05-09 08:56:55.054 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectPage
+2022-05-09 08:56:55.054 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMultiId
+2022-05-09 08:56:55.055 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateByMultiId
+2022-05-09 08:56:55.055 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMultiId
+2022-05-09 08:56:55.103 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectUserInfo
+2022-05-09 08:56:55.106 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.insert
+2022-05-09 08:56:55.108 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.delete
+2022-05-09 08:56:55.109 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.deleteByMap
+2022-05-09 08:56:55.110 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.deleteById
+2022-05-09 08:56:55.111 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.deleteBatchIds
+2022-05-09 08:56:55.112 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.update
+2022-05-09 08:56:55.113 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.updateById
+2022-05-09 08:56:55.113 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectById
+2022-05-09 08:56:55.114 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectBatchIds
+2022-05-09 08:56:55.116 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectByMap
+2022-05-09 08:56:55.117 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectOne
+2022-05-09 08:56:55.119 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectCount
+2022-05-09 08:56:55.120 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectMaps
+2022-05-09 08:56:55.121 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectMapsPage
+2022-05-09 08:56:55.122 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectObjs
+2022-05-09 08:56:55.123 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectList
+2022-05-09 08:56:55.124 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectPage
+2022-05-09 08:56:55.124 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.TUserdetailInfo not contain MppMultiId anno
+2022-05-09 08:56:55.125 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.TUserdetailInfo not contain MppMultiId anno
+2022-05-09 08:56:55.125 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.TUserdetailInfo not contain MppMultiId anno
+2022-05-09 08:56:55.170 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.insert
+2022-05-09 08:56:55.171 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.delete
+2022-05-09 08:56:55.172 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.deleteByMap
+2022-05-09 08:56:55.172 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.deleteById
+2022-05-09 08:56:55.173 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.deleteBatchIds
+2022-05-09 08:56:55.174 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.update
+2022-05-09 08:56:55.175 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.updateById
+2022-05-09 08:56:55.175 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectById
+2022-05-09 08:56:55.176 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectBatchIds
+2022-05-09 08:56:55.177 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectByMap
+2022-05-09 08:56:55.178 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectOne
+2022-05-09 08:56:55.180 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectCount
+2022-05-09 08:56:55.181 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectMaps
+2022-05-09 08:56:55.182 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectMapsPage
+2022-05-09 08:56:55.183 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectObjs
+2022-05-09 08:56:55.184 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectList
+2022-05-09 08:56:55.184 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectPage
+2022-05-09 08:56:55.185 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.TUserloginInfo not contain MppMultiId anno
+2022-05-09 08:56:55.185 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.TUserloginInfo not contain MppMultiId anno
+2022-05-09 08:56:55.185 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.TUserloginInfo not contain MppMultiId anno
+2022-05-09 08:56:55.273 [restartedMain] INFO  com.github.jeffreyning.mybatisplus.conf.PlusConfig - mpp.utilBasePath is null no util alias for xml
+2022-05-09 08:56:55.273 [restartedMain] ERROR com.github.jeffreyning.mybatisplus.conf.PlusConfig - mpp.entityBasePath is null skip scan result map
+2022-05-09 08:56:55.497 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-09 08:56:55.540 [restartedMain] INFO  com.rvbs.pm.configurer.WebMvcConfigurerModle - 注册拦截器
+2022-05-09 08:56:55.762 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-05-09 08:56:55.790 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5635"]
+2022-05-09 08:56:55.807 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5635 (http) with context path ''
+2022-05-09 08:56:55.810 [restartedMain] INFO  com.rvbs.pm.application.Application - Started Application in 3.363 seconds (JVM running for 4.086)
+2022-05-09 08:57:01.082 [http-nio-5635-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 08:57:01.082 [http-nio-5635-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-09 08:57:01.090 [http-nio-5635-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2022-05-09 08:57:01.231 [http-nio-5635-exec-2] INFO  com.rvbs.pm.aop.LogAspect - 《*****************请求内容*****************************》
+2022-05-09 08:57:01.232 [http-nio-5635-exec-2] INFO  com.rvbs.pm.aop.LogAspect - 请求地址Url : http://localhost:5635/user/login
+2022-05-09 08:57:01.232 [http-nio-5635-exec-2] INFO  com.rvbs.pm.aop.LogAspect - 请求方法Method : POST
+2022-05-09 08:57:01.232 [http-nio-5635-exec-2] INFO  com.rvbs.pm.aop.LogAspect - 客户端IP : 0:0:0:0:0:0:0:1
+2022-05-09 08:57:01.232 [http-nio-5635-exec-2] INFO  com.rvbs.pm.aop.LogAspect - 客户端IPHost : 0:0:0:0:0:0:0:1
+2022-05-09 08:57:01.233 [http-nio-5635-exec-2] INFO  com.rvbs.pm.aop.LogAspect - jar包对象 : com.rvbs.pm.web.LoginWeb.login
+2022-05-09 08:57:01.237 [http-nio-5635-exec-2] INFO  com.rvbs.pm.aop.LogAspect - 参数 : {    "sys_head":{      "requestData":"20220329",   "requestTime":"110516",   "conSumerSeqNo":"12398010",   "returnCode":"0000",   "returnMsg":"XIAO"    },    "app_head":{     "userId":"admin",     "roleId":"01",     "pageNum":"0",     "pageSize":"2"    },    "body":{            "userId":"admin",            "passWd":"31F85F90027DF519C6C66903465A8C8F"            }}
+2022-05-09 08:57:02.345 [http-nio-5635-exec-2] INFO  com.rvbs.pm.aop.LogAspect - 返回内容 : {"app_head":{"pageNum":"0","pageSize":"2","roleId":"01","userId":"admin"},"body":{"bankofemployee":"全国银行","bankuserid":"wx00000000","department":"赞同公司","levelcompy":"10","loginStatus":"1","projectgroup":"全渠道","roleId":"01","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiLmma7pgJrlkZjlt6UiLCJpc3MiOiJhZG1pbiIsInVzZXJOYW1lIjoi5pmu6YCa5ZGY5belIiwiZXhwIjoxNjUyMDYxNDIyLCJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTY1MjA1NzgyMn0.Gb9wMWRo9XOxA1Fq1SA7qW8EgwzktZQlT8LkT5c-g4AIy_IDWfZnnEsMF4Ivvkvn8IjWzGDqr3dnVVh6z6bZmw","userId":"admin","username":"超级管理员"},"sys_head":{"conSumerSeqNo":"12398010","requestData":"20220509","requestTime":"085702","returnCode":"000000","returnMsg":"交易成功"}}
+2022-05-09 08:57:02.345 [http-nio-5635-exec-2] INFO  com.rvbs.pm.aop.LogAspect - 《*****************返回内容*****************************》
+2022-05-09 08:57:52.773 [http-nio-5635-exec-3] INFO  com.rvbs.pm.configurer.PMHandAdapter - 请求方式：POST
+2022-05-09 08:57:52.815 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 《*****************请求内容*****************************》
+2022-05-09 08:57:52.815 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 请求地址Url : http://localhost:5635/api/t/userlogin/info/delete
+2022-05-09 08:57:52.815 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 请求方法Method : POST
+2022-05-09 08:57:52.815 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 客户端IP : 0:0:0:0:0:0:0:1
+2022-05-09 08:57:52.815 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 客户端IPHost : 0:0:0:0:0:0:0:1
+2022-05-09 08:57:52.816 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - jar包对象 : com.rvbs.pm.web.TUserloginInfoWeb.delete
+2022-05-09 08:57:52.816 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 参数 : {    "sys_head":{      "requestData":"20220329",   "requestTime":"110516",   "conSumerSeqNo":"12398010",   "returnCode":"0000",   "returnMsg":"XIAO"    },    "app_head":{     "userId":"admin",     "roleId":"01",     "pageNum":"0",     "pageSize":"2"    },    "body":[{            "userid":"A20220506"    },    {            "userid":"testone"    }]}
+2022-05-09 08:57:53.013 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 返回内容 : {"app_head":{"pageNum":"0","pageSize":"2","roleId":"01","userId":"admin"},"sys_head":{"conSumerSeqNo":"12398010","requestData":"20220509","requestTime":"085753","returnCode":"delleterror02","returnMsg":"删除失败"}}
+2022-05-09 08:57:53.013 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 《*****************返回内容*****************************》
+2022-05-09 08:58:48.238 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-09 08:58:48.239 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-05-09 08:58:48.243 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-05-09 08:58:48.575 [restartedMain] INFO  com.rvbs.pm.application.Application - Starting Application on LAPTOP-0DG0FV29 with PID 2244 (started by 夏荫荫 in E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management)
+2022-05-09 08:58:48.575 [restartedMain] INFO  com.rvbs.pm.application.Application - The following profiles are active: dev
+2022-05-09 08:58:48.737 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'loginMapper' and 'com.rvbs.pm.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:58:48.737 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewInfoMapper' and 'com.rvbs.pm.mapper.TMenuviewInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:58:48.737 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewroleRltMapper' and 'com.rvbs.pm.mapper.TMenuviewroleRltMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:58:48.737 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserdetailInfoMapper' and 'com.rvbs.pm.mapper.TUserdetailInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:58:48.737 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserloginInfoMapper' and 'com.rvbs.pm.mapper.TUserloginInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-09 08:58:48.737 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.rvbs.pm.mapper]' package. Please check your configuration.
+2022-05-09 08:58:48.738 [restartedMain] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-05-09 08:58:48.844 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5635 (http)
+2022-05-09 08:58:48.845 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5635"]
+2022-05-09 08:58:48.845 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-09 08:58:48.845 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-05-09 08:58:48.858 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-09 08:58:48.858 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 280 ms
+2022-05-09 08:58:48.886 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-05-09 08:58:48.898 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-05-09 08:58:49.068 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectLoginModel
+2022-05-09 08:58:49.070 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.insert
+2022-05-09 08:58:49.072 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.delete
+2022-05-09 08:58:49.072 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteByMap
+2022-05-09 08:58:49.073 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteById
+2022-05-09 08:58:49.074 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteBatchIds
+2022-05-09 08:58:49.075 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.update
+2022-05-09 08:58:49.076 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.updateById
+2022-05-09 08:58:49.076 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectById
+2022-05-09 08:58:49.077 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectBatchIds
+2022-05-09 08:58:49.078 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectByMap
+2022-05-09 08:58:49.079 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectOne
+2022-05-09 08:58:49.079 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectCount
+2022-05-09 08:58:49.080 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMaps
+2022-05-09 08:58:49.081 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMapsPage
+2022-05-09 08:58:49.082 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectObjs
+2022-05-09 08:58:49.083 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectList
+2022-05-09 08:58:49.084 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectPage
+2022-05-09 08:58:49.084 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-09 08:58:49.084 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-09 08:58:49.084 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-09 08:58:49.132 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.insert
+2022-05-09 08:58:49.134 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.delete
+2022-05-09 08:58:49.135 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMap
+2022-05-09 08:58:49.135 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteById
+2022-05-09 08:58:49.136 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteBatchIds
+2022-05-09 08:58:49.137 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.update
+2022-05-09 08:58:49.138 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateById
+2022-05-09 08:58:49.139 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectById
+2022-05-09 08:58:49.139 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectBatchIds
+2022-05-09 08:58:49.141 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMap
+2022-05-09 08:58:49.142 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectOne
+2022-05-09 08:58:49.143 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectCount
+2022-05-09 08:58:49.144 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMaps
+2022-05-09 08:58:49.145 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMapsPage
+2022-05-09 08:58:49.147 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectObjs
+2022-05-09 08:58:49.148 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectList
+2022-05-09 08:58:49.149 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectPage
+2022-05-09 08:58:49.149 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMultiId
+2022-05-09 08:58:49.150 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateByMultiId
+2022-05-09 08:58:49.150 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMultiId
+2022-05-09 08:58:49.180 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateEnabelFlag
+2022-05-09 08:58:49.180 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.findAllMenu
+2022-05-09 08:58:49.181 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.insert
+2022-05-09 08:58:49.182 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.delete
+2022-05-09 08:58:49.183 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMap
+2022-05-09 08:58:49.184 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteById
+2022-05-09 08:58:49.185 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteBatchIds
+2022-05-09 08:58:49.186 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.update
+2022-05-09 08:58:49.187 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateById
+2022-05-09 08:58:49.187 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectById
+2022-05-09 08:58:49.188 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectBatchIds
+2022-05-09 08:58:49.189 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMap
+2022-05-09 08:58:49.190 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectOne
+2022-05-09 08:58:49.191 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectCount
+2022-05-09 08:58:49.193 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMaps
+2022-05-09 08:58:49.194 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMapsPage
+2022-05-09 08:58:49.196 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectObjs
+2022-05-09 08:58:49.197 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectList
+2022-05-09 08:58:49.198 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectPage
+2022-05-09 08:58:49.198 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMultiId
+2022-05-09 08:58:49.199 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateByMultiId
+2022-05-09 08:58:49.199 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMultiId
+2022-05-09 08:58:49.252 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectUserInfo
+2022-05-09 08:58:49.254 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.insert
+2022-05-09 08:58:49.255 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.delete
+2022-05-09 08:58:49.256 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.deleteByMap
+2022-05-09 08:58:49.257 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.deleteById
+2022-05-09 08:58:49.258 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.deleteBatchIds
+2022-05-09 08:58:49.259 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.update
+2022-05-09 08:58:49.259 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.updateById
+2022-05-09 08:58:49.260 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectById
+2022-05-09 08:58:49.260 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectBatchIds
+2022-05-09 08:58:49.261 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectByMap
+2022-05-09 08:58:49.262 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectOne
+2022-05-09 08:58:49.263 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectCount
+2022-05-09 08:58:49.264 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectMaps
+2022-05-09 08:58:49.265 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectMapsPage
+2022-05-09 08:58:49.267 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectObjs
+2022-05-09 08:58:49.268 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectList
+2022-05-09 08:58:49.269 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectPage
+2022-05-09 08:58:49.269 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.TUserdetailInfo not contain MppMultiId anno
+2022-05-09 08:58:49.269 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.TUserdetailInfo not contain MppMultiId anno
+2022-05-09 08:58:49.269 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.TUserdetailInfo not contain MppMultiId anno
+2022-05-09 08:58:49.316 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.insert
+2022-05-09 08:58:49.317 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.delete
+2022-05-09 08:58:49.318 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.deleteByMap
+2022-05-09 08:58:49.319 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.deleteById
+2022-05-09 08:58:49.320 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.deleteBatchIds
+2022-05-09 08:58:49.320 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.update
+2022-05-09 08:58:49.321 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.updateById
+2022-05-09 08:58:49.321 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectById
+2022-05-09 08:58:49.322 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectBatchIds
+2022-05-09 08:58:49.323 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectByMap
+2022-05-09 08:58:49.325 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectOne
+2022-05-09 08:58:49.326 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectCount
+2022-05-09 08:58:49.328 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectMaps
+2022-05-09 08:58:49.329 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectMapsPage
+2022-05-09 08:58:49.330 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectObjs
+2022-05-09 08:58:49.331 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectList
+2022-05-09 08:58:49.332 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectPage
+2022-05-09 08:58:49.332 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.TUserloginInfo not contain MppMultiId anno
+2022-05-09 08:58:49.332 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.TUserloginInfo not contain MppMultiId anno
+2022-05-09 08:58:49.332 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.TUserloginInfo not contain MppMultiId anno
+2022-05-09 08:58:49.377 [restartedMain] INFO  com.github.jeffreyning.mybatisplus.conf.PlusConfig - mpp.utilBasePath is null no util alias for xml
+2022-05-09 08:58:49.377 [restartedMain] ERROR com.github.jeffreyning.mybatisplus.conf.PlusConfig - mpp.entityBasePath is null skip scan result map
+2022-05-09 08:58:49.478 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-09 08:58:49.490 [restartedMain] INFO  com.rvbs.pm.configurer.WebMvcConfigurerModle - 注册拦截器
+2022-05-09 08:58:49.613 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-05-09 08:58:49.631 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5635"]
+2022-05-09 08:58:49.633 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5635 (http) with context path ''
+2022-05-09 08:58:49.633 [restartedMain] INFO  com.rvbs.pm.application.Application - Started Application in 1.085 seconds (JVM running for 117.91)
+2022-05-09 08:58:49.634 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-05-09 08:59:08.627 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-05-09 08:59:08.630 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-09 08:59:08.631 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-05-09 08:59:08.631 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed

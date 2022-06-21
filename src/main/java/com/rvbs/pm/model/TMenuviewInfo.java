@@ -7,11 +7,11 @@ import javax.persistence.*;
 @Table(name = "t_menuview_info")
 public class TMenuviewInfo extends BaseBean {
     /**
-     * 菜单视图编号(自增)
+     * 菜单视图编号
      */
     @MppMultiId
     @Column(name = "MENUVIEWNUM")
-    private Integer menuviewnum;
+    private String menuviewnum;
 
     /**
      * 菜单编号
@@ -45,6 +45,12 @@ public class TMenuviewInfo extends BaseBean {
     private String isvisible;
 
     /**
+     * 菜单图标
+     */
+    @Column(name = "MENUICON")
+    private String menuicon;
+
+    /**
      * 备用字段1
      */
     @Column(name = "REMARK1")
@@ -63,20 +69,20 @@ public class TMenuviewInfo extends BaseBean {
     private String remark3;
 
     /**
-     * 获取菜单视图编号(自增)
+     * 获取菜单视图编号
      *
-     * @return MENUVIEWNUM - 菜单视图编号(自增)
+     * @return MENUVIEWNUM - 菜单视图编号
      */
-    public Integer getMenuviewnum() {
+    public String getMenuviewnum() {
         return menuviewnum;
     }
 
     /**
-     * 设置菜单视图编号(自增)
+     * 设置菜单视图编号
      *
-     * @param menuviewnum 菜单视图编号(自增)
+     * @param menuviewnum 菜单视图编号
      */
-    public void setMenuviewnum(Integer menuviewnum) {
+    public void setMenuviewnum(String menuviewnum) {
         this.menuviewnum = menuviewnum;
     }
 
@@ -168,6 +174,24 @@ public class TMenuviewInfo extends BaseBean {
      */
     public void setIsvisible(String isvisible) {
         this.isvisible = isvisible;
+    }
+
+    /**
+     * 获取菜单图标
+     *
+     * @return MENUICON - 菜单图标
+     */
+    public String getMenuicon() {
+        return menuicon;
+    }
+
+    /**
+     * 设置菜单图标
+     *
+     * @param menuicon 菜单图标
+     */
+    public void setMenuicon(String menuicon) {
+        this.menuicon = menuicon;
     }
 
     /**

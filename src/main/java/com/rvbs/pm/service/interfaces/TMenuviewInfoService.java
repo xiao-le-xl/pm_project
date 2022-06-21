@@ -4,7 +4,7 @@ import com.rvbs.pm.core.Service;
 
 
 /**
- * Created by CodeGenerator on 2022/04/25.
+ * Created by CodeGenerator on 2022/05/05.
  */
 public interface TMenuviewInfoService extends Service<TMenuviewInfo> {
 

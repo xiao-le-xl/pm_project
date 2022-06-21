@@ -12,5 +12,7 @@ import com.rvbs.pm.core.Service;
  */
 public interface TMenuviewroleRltService extends Service<TMenuviewroleRlt> {
 	
-	public List<Map<String, String>> findAllMenu();
+	public List<Map<String, String>> findAllMenu(String roleid);
+	
+	public Boolean updateEnabelFlag(String roleid);
 }

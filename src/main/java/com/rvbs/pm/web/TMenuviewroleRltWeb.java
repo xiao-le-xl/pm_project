@@ -40,6 +40,8 @@ public class TMenuviewroleRltWeb {
     	if(StringUtils.isBlank(requestBean.getBody().getRoleid()) || StringUtils.isBlank(requestBean.getBody().getMenuviewnum()) ) {
     		return ResultTool.genFailResult(requestBean,"Us001","用户id或用户名或菜单视图编号门为空，插入失败!");
     	}
+//    	默认插入菜单视图为不启用视图
+    	requestBean.getBody().setEnableflag("0");
         boolean save = tMenuviewroleRltService.save(requestBean.getBody());
         if (!save) {
         	return ResultTool.genFailResult(requestBean,"adderror","插入失败!");
@@ -87,6 +89,12 @@ public class TMenuviewroleRltWeb {
     	if(StringUtils.isBlank(requestBean.getBody().getRoleid()) || StringUtils.isBlank(requestBean.getBody().getMenuviewnum()) ) {
     		return ResultTool.genFailResult(requestBean,"uperr01","修改失败!");
     	}
+    	String enableflag = requestBean.getBody().getEnableflag();
+    	System.out.println("更新标志："+enableflag);
+    	if ("1".equals(enableflag)) {
+			//说明需要将该菜单视图设置为可见，则需要将其他菜单视图设置为不可见，更新其余菜单视图为不可见
+    		 tMenuviewroleRltService.updateEnabelFlag(requestBean.getBody().getRoleid());
+		}
         boolean updateByMultiId = tMenuviewroleRltService.updateByMultiId(requestBean.getBody());
         if (!updateByMultiId) {
         	return ResultTool.genFailResult(requestBean,"uperr02","修改失败!");
@@ -137,7 +145,7 @@ public class TMenuviewroleRltWeb {
     @PostMapping("/allmeun")
     public ResponseBean<List<Map<String, String>>> list(@RequestBody RequestBean<TMenuviewroleRlt> requestBean) {
         // TODO 默认方法生成，如需改动自行修改
-		 return ResultTool.genSuccessResult(requestBean, tMenuviewroleRltService.findAllMenu());
+		 return ResultTool.genSuccessResult(requestBean,tMenuviewroleRltService.findAllMenu(requestBean.getBody().getRoleid()));
     }
     
     

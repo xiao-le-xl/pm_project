@@ -61,7 +61,7 @@ public class ServletHandTool {
 	 */
 	public static <T> void  responseResult(HttpServletResponse response, T result) {
         response.setCharacterEncoding("UTF-8");
-        response.setHeader("Content-type", "application/json;charset=UTF-8");
+        response.setHeader("Content-type", "application/json; charset=UTF-8");
         response.setStatus(Integer.parseInt(ResultCode.CONNECT.code()));
         try {
             response.getWriter().write(JSON.toJSONString(result));
@@ -69,4 +69,26 @@ public class ServletHandTool {
             logger.error("写入响应数据异常：",ex.getMessage());
         }
     }
+	
+	/**
+	 * 解决aiso通讯需要增加OPTIONS校验
+	 * @param <T>
+	 * @param response 响应对象
+	 * @param result 结果
+	 */
+	public static <T> void responseCorsResult(HttpServletResponse response, T result) {
+		response.setCharacterEncoding("UTF-8");
+		response.setHeader("Content-type", "application/json; charset=UTF-8");
+		response.setStatus(Integer.parseInt(ResultCode.CONNECT.code()));
+		response.setHeader("Access-Control-Allow-Origin", "*"); // 响应所有域访问
+		response.setHeader("Access-Control-Allow-Headers", "*"); // 响应所有头 请求类型
+		response.setHeader("Access-Control-Allow-Methods", "*"); // 响应所有请求方法
+		response.setHeader("Access-Control-Allow-Credentials", "true"); // 是否支持Cookie
+		try {
+			response.getWriter().write(JSON.toJSONString(result)); // 返回数据
+		} catch (IOException ex) {
+			logger.error("写入响应数据异常：", ex.getMessage());
+		}
+	}
+	
 }

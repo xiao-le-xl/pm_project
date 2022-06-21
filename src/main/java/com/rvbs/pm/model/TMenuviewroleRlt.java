@@ -2,9 +2,13 @@ package com.rvbs.pm.model;
 
 import com.github.jeffreyning.mybatisplus.anno.MppMultiId;
 import com.rvbs.pm.core.BaseBean;
+
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Table(name = "t_menuviewrole_rlt")
+@Data
 public class TMenuviewroleRlt extends BaseBean {
     /**
 	 * 

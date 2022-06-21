@@ -19,7 +19,19 @@ import com.rvbs.pm.service.interfaces.TMenuviewroleRltService;
 @Transactional
 public class TMenuviewroleRltServiceImp extends AbstractService<TMenuviewroleRltMapper,TMenuviewroleRlt> implements TMenuviewroleRltService {
 
-	public List<Map<String, String>> findAllMenu(){
-		return this.getBaseMapper().findAllMenu();
+	public List<Map<String, String>> findAllMenu(String username){
+		return this.getBaseMapper().findAllMenu(username);
 	}
+
+	@Override
+	public Boolean updateEnabelFlag(String roleid) {
+		// TODO Auto-generated method stub
+		return  this.getBaseMapper().updateEnabelFlag(roleid);
+	}
+
+
+
+
+	
+
 }

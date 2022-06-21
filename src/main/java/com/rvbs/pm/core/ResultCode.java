@@ -8,6 +8,7 @@ public enum ResultCode {
     CONNECT("200","通讯成功"),//成功
     FAIL("400","交易失败"),//失败
     AUTHORIZEDISNULL("401","签名未上送"),//签名未上送（签名错误）
+    AUTHORIZEDISERROR("403","签名已过期，请重新登录获取"),//签名错误
     CHECKOPTINS("717","OPTINS预校验"),
     UNAUTHORIZED("402","签名认证错误"),//未认证（签名错误）
     NOT_FOUND("404","接口不存在，请联系技术人员确认"),//接口不存在

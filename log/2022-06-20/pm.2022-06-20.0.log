@@ -1,0 +1,250 @@
+2022-06-20 16:43:32.236 [restartedMain] INFO  com.rvbs.pm.application.Application - Starting Application on LAPTOP-0DG0FV29 with PID 8848 (started by 夏荫荫 in E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management)
+2022-06-20 16:43:32.241 [restartedMain] INFO  com.rvbs.pm.application.Application - The following profiles are active: dev
+2022-06-20 16:43:32.441 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\夏荫荫\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-06-20 16:43:32.442 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-20 16:43:32.443 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-20 16:43:34.206 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'loginMapper' and 'com.rvbs.pm.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2022-06-20 16:43:34.206 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewInfoMapper' and 'com.rvbs.pm.mapper.TMenuviewInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-06-20 16:43:34.206 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewroleRltMapper' and 'com.rvbs.pm.mapper.TMenuviewroleRltMapper' mapperInterface. Bean already defined with the same name!
+2022-06-20 16:43:34.207 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserdetailInfoMapper' and 'com.rvbs.pm.mapper.TUserdetailInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-06-20 16:43:34.207 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserloginInfoMapper' and 'com.rvbs.pm.mapper.TUserloginInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-06-20 16:43:34.207 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.rvbs.pm.mapper]' package. Please check your configuration.
+2022-06-20 16:43:34.208 [restartedMain] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-06-20 16:43:36.007 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5635 (http)
+2022-06-20 16:43:36.058 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5635"]
+2022-06-20 16:43:36.060 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 16:43:36.061 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-06-20 16:43:36.223 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 16:43:36.223 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3779 ms
+2022-06-20 16:43:36.411 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-06-20 16:43:36.616 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-06-20 16:43:37.600 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectLoginModel
+2022-06-20 16:43:37.827 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.insert
+2022-06-20 16:43:37.835 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.delete
+2022-06-20 16:43:37.838 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteByMap
+2022-06-20 16:43:37.860 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteById
+2022-06-20 16:43:37.861 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteBatchIds
+2022-06-20 16:43:37.869 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.update
+2022-06-20 16:43:37.872 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.updateById
+2022-06-20 16:43:37.873 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectById
+2022-06-20 16:43:37.875 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectBatchIds
+2022-06-20 16:43:37.877 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectByMap
+2022-06-20 16:43:37.882 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectOne
+2022-06-20 16:43:37.886 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectCount
+2022-06-20 16:43:37.891 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMaps
+2022-06-20 16:43:37.896 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMapsPage
+2022-06-20 16:43:37.901 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectObjs
+2022-06-20 16:43:37.906 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectList
+2022-06-20 16:43:37.910 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectPage
+2022-06-20 16:43:37.911 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-06-20 16:43:37.913 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-06-20 16:43:37.913 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-06-20 16:43:38.005 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.insert
+2022-06-20 16:43:38.008 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.delete
+2022-06-20 16:43:38.010 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMap
+2022-06-20 16:43:38.012 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteById
+2022-06-20 16:43:38.014 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteBatchIds
+2022-06-20 16:43:38.018 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.update
+2022-06-20 16:43:38.020 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateById
+2022-06-20 16:43:38.021 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectById
+2022-06-20 16:43:38.023 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectBatchIds
+2022-06-20 16:43:38.024 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMap
+2022-06-20 16:43:38.027 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectOne
+2022-06-20 16:43:38.031 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectCount
+2022-06-20 16:43:38.033 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMaps
+2022-06-20 16:43:38.036 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMapsPage
+2022-06-20 16:43:38.039 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectObjs
+2022-06-20 16:43:38.044 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectList
+2022-06-20 16:43:38.047 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectPage
+2022-06-20 16:43:38.048 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMultiId
+2022-06-20 16:43:38.051 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateByMultiId
+2022-06-20 16:43:38.052 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMultiId
+2022-06-20 16:43:38.104 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.findAllMenu
+2022-06-20 16:43:38.105 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateEnabelFlag
+2022-06-20 16:43:38.110 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.insert
+2022-06-20 16:43:38.113 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.delete
+2022-06-20 16:43:38.115 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMap
+2022-06-20 16:43:38.117 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteById
+2022-06-20 16:43:38.119 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteBatchIds
+2022-06-20 16:43:38.121 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.update
+2022-06-20 16:43:38.124 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateById
+2022-06-20 16:43:38.125 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectById
+2022-06-20 16:43:38.126 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectBatchIds
+2022-06-20 16:43:38.127 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMap
+2022-06-20 16:43:38.129 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectOne
+2022-06-20 16:43:38.135 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectCount
+2022-06-20 16:43:38.137 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMaps
+2022-06-20 16:43:38.140 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMapsPage
+2022-06-20 16:43:38.142 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectObjs
+2022-06-20 16:43:38.152 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectList
+2022-06-20 16:43:38.154 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectPage
+2022-06-20 16:43:38.155 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMultiId
+2022-06-20 16:43:38.156 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateByMultiId
+2022-06-20 16:43:38.157 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMultiId
+2022-06-20 16:43:38.228 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectUserInfo
+2022-06-20 16:43:38.234 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.insert
+2022-06-20 16:43:38.237 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.delete
+2022-06-20 16:43:38.239 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.deleteByMap
+2022-06-20 16:43:38.241 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.deleteById
+2022-06-20 16:43:38.243 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.deleteBatchIds
+2022-06-20 16:43:38.246 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.update
+2022-06-20 16:43:38.247 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.updateById
+2022-06-20 16:43:38.248 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectById
+2022-06-20 16:43:38.250 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectBatchIds
+2022-06-20 16:43:38.251 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectByMap
+2022-06-20 16:43:38.253 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectOne
+2022-06-20 16:43:38.256 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectCount
+2022-06-20 16:43:38.259 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectMaps
+2022-06-20 16:43:38.262 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectMapsPage
+2022-06-20 16:43:38.264 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectObjs
+2022-06-20 16:43:38.267 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectList
+2022-06-20 16:43:38.268 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectPage
+2022-06-20 16:43:38.269 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.TUserdetailInfo not contain MppMultiId anno
+2022-06-20 16:43:38.269 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.TUserdetailInfo not contain MppMultiId anno
+2022-06-20 16:43:38.269 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.TUserdetailInfo not contain MppMultiId anno
+2022-06-20 16:43:38.355 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.insert
+2022-06-20 16:43:38.357 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.delete
+2022-06-20 16:43:38.359 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.deleteByMap
+2022-06-20 16:43:38.360 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.deleteById
+2022-06-20 16:43:38.363 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.deleteBatchIds
+2022-06-20 16:43:38.365 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.update
+2022-06-20 16:43:38.367 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.updateById
+2022-06-20 16:43:38.368 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectById
+2022-06-20 16:43:38.369 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectBatchIds
+2022-06-20 16:43:38.370 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectByMap
+2022-06-20 16:43:38.372 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectOne
+2022-06-20 16:43:38.375 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectCount
+2022-06-20 16:43:38.378 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectMaps
+2022-06-20 16:43:38.380 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectMapsPage
+2022-06-20 16:43:38.383 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectObjs
+2022-06-20 16:43:38.386 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectList
+2022-06-20 16:43:38.389 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserloginInfoMapper.selectPage
+2022-06-20 16:43:38.389 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.TUserloginInfo not contain MppMultiId anno
+2022-06-20 16:43:38.389 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.TUserloginInfo not contain MppMultiId anno
+2022-06-20 16:43:38.389 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.TUserloginInfo not contain MppMultiId anno
+2022-06-20 16:43:38.504 [restartedMain] INFO  com.github.jeffreyning.mybatisplus.conf.PlusConfig - mpp.utilBasePath is null no util alias for xml
+2022-06-20 16:43:38.504 [restartedMain] ERROR com.github.jeffreyning.mybatisplus.conf.PlusConfig - mpp.entityBasePath is null skip scan result map
+2022-06-20 16:43:38.846 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-20 16:43:38.907 [restartedMain] INFO  com.rvbs.pm.configurer.WebMvcConfigurerModle - 注册拦截器
+2022-06-20 16:43:39.296 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-06-20 16:43:39.364 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5635"]
+2022-06-20 16:43:39.391 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5635 (http) with context path ''
+2022-06-20 16:43:39.394 [restartedMain] INFO  com.rvbs.pm.application.Application - Started Application in 8.047 seconds (JVM running for 10.346)
+2022-06-20 16:43:52.793 [http-nio-5635-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 16:43:52.794 [http-nio-5635-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-20 16:43:52.843 [http-nio-5635-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 49 ms
+2022-06-20 16:43:52.870 [http-nio-5635-exec-2] INFO  com.rvbs.pm.configurer.PMHandAdapter - 请求方式：POST
+2022-06-20 16:43:54.049 [http-nio-5635-exec-2] ERROR com.rvbs.pm.configurer.PMHandAdapter - 解密token异常：
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2022-04-25T13:17:20Z. Current time: 2022-06-20T16:43:54Z, a difference of 4850794034 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.rvbs.pm.tool.JwtsUtil.unSign(JwtsUtil.java:59)
+	at com.rvbs.pm.configurer.PMHandAdapter.preHandle(PMHandAdapter.java:46)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.rvbs.pm.filter.RequestBodyReaderFilter.doFilter(RequestBodyReaderFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2022-06-20 16:44:01.003 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 《*****************请求内容*****************************》
+2022-06-20 16:44:01.004 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 请求地址Url : http://localhost:5635/user/login
+2022-06-20 16:44:01.005 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 请求方法Method : POST
+2022-06-20 16:44:01.005 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 客户端IP : 0:0:0:0:0:0:0:1
+2022-06-20 16:44:01.005 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 客户端IPHost : 0:0:0:0:0:0:0:1
+2022-06-20 16:44:01.008 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - jar包对象 : com.rvbs.pm.web.LoginWeb.login
+2022-06-20 16:44:01.009 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 参数 : {    "sys_head":{      "requestData":"20220329",   "requestTime":"110516",   "conSumerSeqNo":"12398010",   "returnCode":"0000",   "returnMsg":"XIAO"    },    "app_head":{     "userId":"admin",     "roleId":"01",     "pageNum":"0",     "pageSize":"2"    },    "body":{            "userId":"admin",            "passWd":"31F85F90027DF519C6C66903465A8C8F"            }}
+2022-06-20 16:44:02.376 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 返回内容 : {"app_head":{"pageNum":"0","pageSize":"2","roleId":"01","userId":"admin"},"body":{"bankofemployee":"全国银行","bankuserid":"wx00000000","department":"赞同公司","levelcompy":"10","loginStatus":"1","projectgroup":"全渠道","roleId":"01","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiLmma7pgJrlkZjlt6UiLCJpc3MiOiJhZG1pbiIsInVzZXJOYW1lIjoi5pmu6YCa5ZGY5belIiwiZXhwIjoxNjU1NzE4MjQyLCJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTY1NTcxNDY0Mn0.yA3HtD7WLT-GBOUB6oVRmr0bzjUbeiIolIJgwnUf23qZf9ssV9c_qUQqwo21ol0UNHvDbpFbO-sW9FFr0_eBog","userId":"admin","username":"超级管理员"},"sys_head":{"conSumerSeqNo":"12398010","requestData":"20220620","requestTime":"164402","returnCode":"000000","returnMsg":"交易成功"}}
+2022-06-20 16:44:02.377 [http-nio-5635-exec-3] INFO  com.rvbs.pm.aop.LogAspect - 《*****************返回内容*****************************》
+2022-06-20 16:44:27.344 [http-nio-5635-exec-4] INFO  com.rvbs.pm.configurer.PMHandAdapter - 请求方式：POST
+2022-06-20 16:44:27.361 [http-nio-5635-exec-4] INFO  com.rvbs.pm.aop.LogAspect - 《*****************请求内容*****************************》
+2022-06-20 16:44:27.362 [http-nio-5635-exec-4] INFO  com.rvbs.pm.aop.LogAspect - 请求地址Url : http://localhost:5635/api/t/userdetail/info/list
+2022-06-20 16:44:27.362 [http-nio-5635-exec-4] INFO  com.rvbs.pm.aop.LogAspect - 请求方法Method : POST
+2022-06-20 16:44:27.362 [http-nio-5635-exec-4] INFO  com.rvbs.pm.aop.LogAspect - 客户端IP : 0:0:0:0:0:0:0:1
+2022-06-20 16:44:27.362 [http-nio-5635-exec-4] INFO  com.rvbs.pm.aop.LogAspect - 客户端IPHost : 0:0:0:0:0:0:0:1
+2022-06-20 16:44:27.362 [http-nio-5635-exec-4] INFO  com.rvbs.pm.aop.LogAspect - jar包对象 : com.rvbs.pm.web.TUserdetailInfoWeb.list
+2022-06-20 16:44:27.362 [http-nio-5635-exec-4] INFO  com.rvbs.pm.aop.LogAspect - 参数 : {    "sys_head":{      "requestData":"20220329",   "requestTime":"110516",   "conSumerSeqNo":"12398010",   "returnCode":"0000",   "returnMsg":"XIAO"    },    "app_head":{     "userId":"admin",     "roleId":"01",     "pageNum":"0",     "pageSize":"2"    },    "body":{       }    }
+2022-06-20 16:44:27.550 [http-nio-5635-exec-4] INFO  com.rvbs.pm.aop.LogAspect - 返回内容 : {"app_head":{"pageNum":"0","pageSize":"2","roleId":"01","userId":"admin"},"body":[{"department":"华中开发","levelcompy":"","userid":"1538717459475902465","username":""},{"department":"华中开发","levelcompy":"4","userid":"A012345","username":"测试"}],"sys_head":{"conSumerSeqNo":"12398010","requestData":"20220620","requestTime":"164427","returnCode":"000000","returnMsg":"交易成功"}}
+2022-06-20 16:44:27.551 [http-nio-5635-exec-4] INFO  com.rvbs.pm.aop.LogAspect - 《*****************返回内容*****************************》
+2022-06-20 16:44:41.556 [http-nio-5635-exec-5] INFO  com.rvbs.pm.configurer.PMHandAdapter - 请求方式：POST
+2022-06-20 16:44:41.560 [http-nio-5635-exec-5] INFO  com.rvbs.pm.aop.LogAspect - 《*****************请求内容*****************************》
+2022-06-20 16:44:41.560 [http-nio-5635-exec-5] INFO  com.rvbs.pm.aop.LogAspect - 请求地址Url : http://localhost:5635/api/t/userdetail/info/list
+2022-06-20 16:44:41.560 [http-nio-5635-exec-5] INFO  com.rvbs.pm.aop.LogAspect - 请求方法Method : POST
+2022-06-20 16:44:41.560 [http-nio-5635-exec-5] INFO  com.rvbs.pm.aop.LogAspect - 客户端IP : 0:0:0:0:0:0:0:1
+2022-06-20 16:44:41.560 [http-nio-5635-exec-5] INFO  com.rvbs.pm.aop.LogAspect - 客户端IPHost : 0:0:0:0:0:0:0:1
+2022-06-20 16:44:41.560 [http-nio-5635-exec-5] INFO  com.rvbs.pm.aop.LogAspect - jar包对象 : com.rvbs.pm.web.TUserdetailInfoWeb.list
+2022-06-20 16:44:41.561 [http-nio-5635-exec-5] INFO  com.rvbs.pm.aop.LogAspect - 参数 : {    "sys_head":{      "requestData":"20220329",   "requestTime":"110516",   "conSumerSeqNo":"12398010",   "returnCode":"0000",   "returnMsg":"XIAO"    },    "app_head":{     "userId":"admin",     "roleId":"01",     "pageNum":"0",     "pageSize":"2"    },    "body":{         "userId":"admin"    }    }
+2022-06-20 16:44:41.695 [http-nio-5635-exec-5] INFO  com.rvbs.pm.aop.LogAspect - 返回内容 : {"app_head":{"pageNum":"0","pageSize":"2","roleId":"01","userId":"admin"},"body":[{"department":"华中开发","levelcompy":"","userid":"1538717459475902465","username":""},{"department":"华中开发","levelcompy":"4","userid":"A012345","username":"测试"}],"sys_head":{"conSumerSeqNo":"12398010","requestData":"20220620","requestTime":"164441","returnCode":"000000","returnMsg":"交易成功"}}
+2022-06-20 16:44:41.696 [http-nio-5635-exec-5] INFO  com.rvbs.pm.aop.LogAspect - 《*****************返回内容*****************************》
+2022-06-20 16:45:37.683 [http-nio-5635-exec-6] INFO  com.rvbs.pm.configurer.PMHandAdapter - 请求方式：POST
+2022-06-20 16:45:37.688 [http-nio-5635-exec-6] INFO  com.rvbs.pm.aop.LogAspect - 《*****************请求内容*****************************》
+2022-06-20 16:45:37.688 [http-nio-5635-exec-6] INFO  com.rvbs.pm.aop.LogAspect - 请求地址Url : http://localhost:5635/api/t/userdetail/info/list
+2022-06-20 16:45:37.688 [http-nio-5635-exec-6] INFO  com.rvbs.pm.aop.LogAspect - 请求方法Method : POST
+2022-06-20 16:45:37.688 [http-nio-5635-exec-6] INFO  com.rvbs.pm.aop.LogAspect - 客户端IP : 0:0:0:0:0:0:0:1
+2022-06-20 16:45:37.688 [http-nio-5635-exec-6] INFO  com.rvbs.pm.aop.LogAspect - 客户端IPHost : 0:0:0:0:0:0:0:1
+2022-06-20 16:45:37.689 [http-nio-5635-exec-6] INFO  com.rvbs.pm.aop.LogAspect - jar包对象 : com.rvbs.pm.web.TUserdetailInfoWeb.list
+2022-06-20 16:45:37.689 [http-nio-5635-exec-6] INFO  com.rvbs.pm.aop.LogAspect - 参数 : {    "sys_head":{      "requestData":"20220329",   "requestTime":"110516",   "conSumerSeqNo":"12398010",   "returnCode":"0000",   "returnMsg":"XIAO"    },    "app_head":{     "userId":"admin",     "roleId":"01",     "pageNum":"0",     "pageSize":"2"    },    "body":{         "userId":"admin"    }    }
+2022-06-20 16:45:37.823 [http-nio-5635-exec-6] INFO  com.rvbs.pm.aop.LogAspect - 返回内容 : {"app_head":{"pageNum":"0","pageSize":"2","roleId":"01","userId":"admin"},"body":[{"department":"华中开发","levelcompy":"","userid":"1538717459475902465","username":""},{"department":"华中开发","levelcompy":"4","userid":"A012345","username":"测试"}],"sys_head":{"conSumerSeqNo":"12398010","requestData":"20220620","requestTime":"164537","returnCode":"000000","returnMsg":"交易成功"}}
+2022-06-20 16:45:37.823 [http-nio-5635-exec-6] INFO  com.rvbs.pm.aop.LogAspect - 《*****************返回内容*****************************》
+2022-06-20 16:46:00.169 [http-nio-5635-exec-7] INFO  com.rvbs.pm.configurer.PMHandAdapter - 请求方式：POST
+2022-06-20 16:46:00.173 [http-nio-5635-exec-7] INFO  com.rvbs.pm.aop.LogAspect - 《*****************请求内容*****************************》
+2022-06-20 16:46:00.173 [http-nio-5635-exec-7] INFO  com.rvbs.pm.aop.LogAspect - 请求地址Url : http://localhost:5635/api/t/userdetail/info/list
+2022-06-20 16:46:00.174 [http-nio-5635-exec-7] INFO  com.rvbs.pm.aop.LogAspect - 请求方法Method : POST
+2022-06-20 16:46:00.174 [http-nio-5635-exec-7] INFO  com.rvbs.pm.aop.LogAspect - 客户端IP : 0:0:0:0:0:0:0:1
+2022-06-20 16:46:00.174 [http-nio-5635-exec-7] INFO  com.rvbs.pm.aop.LogAspect - 客户端IPHost : 0:0:0:0:0:0:0:1
+2022-06-20 16:46:00.174 [http-nio-5635-exec-7] INFO  com.rvbs.pm.aop.LogAspect - jar包对象 : com.rvbs.pm.web.TUserdetailInfoWeb.list
+2022-06-20 16:46:00.174 [http-nio-5635-exec-7] INFO  com.rvbs.pm.aop.LogAspect - 参数 : {    "sys_head":{      "requestData":"20220329",   "requestTime":"110516",   "conSumerSeqNo":"12398010",   "returnCode":"0000",   "returnMsg":"XIAO"    },    "app_head":{     "userId":"admin",     "roleId":"01",     "pageNum":"0",     "pageSize":"2"    },    "body":{         "userid":"admin"    }    }
+2022-06-20 16:46:00.238 [http-nio-5635-exec-7] INFO  com.rvbs.pm.aop.LogAspect - 返回内容 : {"app_head":{"pageNum":"0","pageSize":"2","roleId":"01","userId":"admin"},"body":[{"bankofemployee":"全国银行","bankuserid":"wx00000000","department":"赞同公司","educationinfo":"","levelbank":"","levelcompy":"10","projectgroup":"全渠道","userid":"admin","username":"超级管理员"}],"sys_head":{"conSumerSeqNo":"12398010","requestData":"20220620","requestTime":"164600","returnCode":"000000","returnMsg":"交易成功"}}
+2022-06-20 16:46:00.239 [http-nio-5635-exec-7] INFO  com.rvbs.pm.aop.LogAspect - 《*****************返回内容*****************************》
+2022-06-20 16:51:05.563 [http-nio-5635-exec-10] INFO  com.rvbs.pm.configurer.PMHandAdapter - 请求方式：POST
+2022-06-20 16:51:05.571 [http-nio-5635-exec-10] INFO  com.rvbs.pm.aop.LogAspect - 《*****************请求内容*****************************》
+2022-06-20 16:51:05.572 [http-nio-5635-exec-10] INFO  com.rvbs.pm.aop.LogAspect - 请求地址Url : http://localhost:5635/api/t/menuview/info/detail
+2022-06-20 16:51:05.572 [http-nio-5635-exec-10] INFO  com.rvbs.pm.aop.LogAspect - 请求方法Method : POST
+2022-06-20 16:51:05.572 [http-nio-5635-exec-10] INFO  com.rvbs.pm.aop.LogAspect - 客户端IP : 0:0:0:0:0:0:0:1
+2022-06-20 16:51:05.572 [http-nio-5635-exec-10] INFO  com.rvbs.pm.aop.LogAspect - 客户端IPHost : 0:0:0:0:0:0:0:1
+2022-06-20 16:51:05.572 [http-nio-5635-exec-10] INFO  com.rvbs.pm.aop.LogAspect - jar包对象 : com.rvbs.pm.web.TMenuviewInfoWeb.detail
+2022-06-20 16:51:05.572 [http-nio-5635-exec-10] INFO  com.rvbs.pm.aop.LogAspect - 参数 : {    "sys_head":{      "requestData":"20220329",   "requestTime":"110516",   "conSumerSeqNo":"12398010",   "returnCode":"0000",   "returnMsg":"XIAO"    },    "app_head":{     "userId":"admin",     "roleId":"01",     "pageNum":"0",     "pageSize":"2"    },    "body":{               }}
+2022-06-20 16:51:05.673 [http-nio-5635-exec-10] INFO  com.rvbs.pm.aop.LogAspect - 返回内容 : {"app_head":{"pageNum":"0","pageSize":"2","roleId":"01","userId":"admin"},"body":[{"isvisible":"1","menuname":"信息维护","menunum":"01","menuviewname":"主菜单","menuviewnum":"1","parentmenunum":"0"},{"isvisible":"1","menuicon":"UserAdd","menuname":"个人信息管理","menunum":"011","menuviewname":"主菜单","menuviewnum":"1","parentmenunum":"01"},{"isvisible":"1","menuname":"个人工时管理","menunum":"012","menuviewname":"主菜单","menuviewnum":"1","parentmenunum":"01"},{"isvisible":"1","menuname":"资源管理","menunum":"02","menuviewname":"主菜单","menuviewnum":"1","parentmenunum":"0"},{"isvisible":"1","menuname":"个人资源管理","menunum":"021","menuviewname":"主菜单","menuviewnum":"1","parentmenunum":"02"},{"isvisible":"1","menuname":"个人工时资源管理","menunum":"022","menuviewname":"主菜单","menuviewnum":"1","parentmenunum":"02"},{"isvisible":"1","menuname":"测试新增","menunum":"03","menuviewname":"主菜单","menuviewnum":"1","parentmenunum":"0"},{"isvisible":"1","menuicon":"测试","menuname":"测试新增","menunum":"031","menuviewname":"主菜单","menuviewnum":"1","parentmenunum":"03"},{"isvisible":"1","menuname":"信息维护2","menunum":"01","menuviewname":"维护菜单","menuviewnum":"2","parentmenunum":"0"},{"isvisible":"1","menuname":"个人信息维护2","menunum":"011","menuviewname":"维护菜单","menuviewnum":"2","parentmenunum":"01"},{"isvisible":"1","menuname":"个人工时维护2","menunum":"012","menuviewname":"维护菜单","menuviewnum":"2","parentmenunum":"01"},{"isvisible":"1","menuname":"资源管理2","menunum":"02","menuviewname":"维护菜单","menuviewnum":"2","parentmenunum":"0"},{"isvisible":"1","menuname":"个人资源管理2","menunum":"021","menuviewname":"维护菜单","menuviewnum":"2","parentmenunum":"02"},{"isvisible":"1","menuname":"个人工时资源管理2","menunum":"022","menuviewname":"维护菜单","menuviewnum":"2","parentmenunum":"02"}],"sys_head":{"conSumerSeqNo":"12398010","requestData":"20220620","requestTime":"165105","returnCode":"000000","returnMsg":"交易成功"}}
+2022-06-20 16:51:05.674 [http-nio-5635-exec-10] INFO  com.rvbs.pm.aop.LogAspect - 《*****************返回内容*****************************》
+2022-06-20 16:56:45.627 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-06-20 16:56:45.632 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-20 16:56:45.634 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-06-20 16:56:45.638 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

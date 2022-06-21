@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import ${basePackage}.core.RequestBean;
-import ${basePackage}.core.ResponseBean;
+import ${basePackage}.model.RequestBean;
+import ${basePackage}.model.ResponseBean;
 import ${basePackage}.model.${modelNameUpperCamel};
 import ${basePackage}.service.interfaces.${modelNameUpperCamel}Service;
 import ${basePackage}.tool.ResultTool;

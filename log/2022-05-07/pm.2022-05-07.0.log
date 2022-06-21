@@ -1,0 +1,586 @@
+2022-05-07 11:06:08.203 [restartedMain] INFO  com.rvbs.pm.application.Application - Starting Application on LAPTOP-0DG0FV29 with PID 184 (started by 夏荫荫 in E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management)
+2022-05-07 11:06:08.206 [restartedMain] INFO  com.rvbs.pm.application.Application - The following profiles are active: dev
+2022-05-07 11:06:08.263 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\夏荫荫\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-05-07 11:06:08.265 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-07 11:06:08.265 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-07 11:06:09.099 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'loginMapper' and 'com.rvbs.pm.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:06:09.100 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewInfoMapper' and 'com.rvbs.pm.mapper.TMenuviewInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:06:09.100 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewroleRltMapper' and 'com.rvbs.pm.mapper.TMenuviewroleRltMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:06:09.100 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserdetailInfoMapper' and 'com.rvbs.pm.mapper.TUserdetailInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:06:09.100 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserloginInfoMapper' and 'com.rvbs.pm.mapper.TUserloginInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:06:09.101 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.rvbs.pm.mapper]' package. Please check your configuration.
+2022-05-07 11:06:09.101 [restartedMain] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-05-07 11:06:09.816 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5635 (http)
+2022-05-07 11:06:09.826 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5635"]
+2022-05-07 11:06:09.826 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-07 11:06:09.826 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-05-07 11:06:09.916 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-07 11:06:09.917 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1652 ms
+2022-05-07 11:06:10.023 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-05-07 11:06:10.148 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-05-07 11:06:10.678 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectLoginModel
+2022-05-07 11:06:10.803 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.insert
+2022-05-07 11:06:10.810 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.delete
+2022-05-07 11:06:10.813 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteByMap
+2022-05-07 11:06:10.832 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteById
+2022-05-07 11:06:10.835 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteBatchIds
+2022-05-07 11:06:10.845 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.update
+2022-05-07 11:06:10.849 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.updateById
+2022-05-07 11:06:10.851 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectById
+2022-05-07 11:06:10.854 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectBatchIds
+2022-05-07 11:06:10.856 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectByMap
+2022-05-07 11:06:10.862 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectOne
+2022-05-07 11:06:10.867 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectCount
+2022-05-07 11:06:10.871 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMaps
+2022-05-07 11:06:10.874 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMapsPage
+2022-05-07 11:06:10.877 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectObjs
+2022-05-07 11:06:10.880 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectList
+2022-05-07 11:06:10.884 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectPage
+2022-05-07 11:06:10.885 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-07 11:06:10.886 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-07 11:06:10.886 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-07 11:06:10.964 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.insert
+2022-05-07 11:06:10.967 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.delete
+2022-05-07 11:06:10.969 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMap
+2022-05-07 11:06:10.970 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteById
+2022-05-07 11:06:10.971 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteBatchIds
+2022-05-07 11:06:10.973 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.update
+2022-05-07 11:06:10.975 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateById
+2022-05-07 11:06:10.975 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectById
+2022-05-07 11:06:10.976 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectBatchIds
+2022-05-07 11:06:10.978 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMap
+2022-05-07 11:06:10.980 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectOne
+2022-05-07 11:06:10.982 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectCount
+2022-05-07 11:06:10.984 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMaps
+2022-05-07 11:06:10.986 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMapsPage
+2022-05-07 11:06:10.988 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectObjs
+2022-05-07 11:06:10.989 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectList
+2022-05-07 11:06:10.991 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectPage
+2022-05-07 11:06:10.992 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMultiId
+2022-05-07 11:06:10.994 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateByMultiId
+2022-05-07 11:06:10.995 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMultiId
+2022-05-07 11:06:11.040 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateEnabelFlag
+2022-05-07 11:06:11.042 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.findAllMenu
+2022-05-07 11:06:11.046 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.insert
+2022-05-07 11:06:11.049 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.delete
+2022-05-07 11:06:11.051 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMap
+2022-05-07 11:06:11.052 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteById
+2022-05-07 11:06:11.053 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteBatchIds
+2022-05-07 11:06:11.055 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.update
+2022-05-07 11:06:11.057 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateById
+2022-05-07 11:06:11.057 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectById
+2022-05-07 11:06:11.058 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectBatchIds
+2022-05-07 11:06:11.059 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMap
+2022-05-07 11:06:11.062 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectOne
+2022-05-07 11:06:11.064 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectCount
+2022-05-07 11:06:11.066 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMaps
+2022-05-07 11:06:11.069 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMapsPage
+2022-05-07 11:06:11.071 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectObjs
+2022-05-07 11:06:11.073 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectList
+2022-05-07 11:06:11.076 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectPage
+2022-05-07 11:06:11.076 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMultiId
+2022-05-07 11:06:11.077 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateByMultiId
+2022-05-07 11:06:11.077 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMultiId
+2022-05-07 11:06:11.155 [restartedMain] ERROR tk.mybatis.spring.mapper.MapperFactoryBean - Error while adding the mapper 'interface com.rvbs.pm.mapper.TUserdetailInfoMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.apache.ibatis.builder.annotation.ProviderSqlSource.<init>(ProviderSqlSource.java:130)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.buildSqlSource(MybatisMapperAnnotationBuilder.java:627)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.lambda$parseStatement$2(MybatisMapperAnnotationBuilder.java:287)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parseStatement(MybatisMapperAnnotationBuilder.java:286)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:110)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:83)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:152)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.rvbs.pm.application.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-05-07 11:06:11.157 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserdetailInfoServiceImp': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'TUserdetailInfoMapper' defined in file [E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\target\classes\com\rvbs\pm\mapper\TUserdetailInfoMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+2022-05-07 11:06:11.157 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-05-07 11:06:11.158 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-05-07 11:06:11.161 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-05-07 11:06:11.177 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-07 11:06:11.185 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserdetailInfoServiceImp': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'TUserdetailInfoMapper' defined in file [E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\target\classes\com\rvbs\pm\mapper\TUserdetailInfoMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.rvbs.pm.application.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'TUserdetailInfoMapper' defined in file [E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\target\classes\com\rvbs\pm\mapper\TUserdetailInfoMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:86)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 34 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.apache.ibatis.builder.annotation.ProviderSqlSource.<init>(ProviderSqlSource.java:130)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.buildSqlSource(MybatisMapperAnnotationBuilder.java:627)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.lambda$parseStatement$2(MybatisMapperAnnotationBuilder.java:287)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parseStatement(MybatisMapperAnnotationBuilder.java:286)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:110)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:83)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:152)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
+	... 37 common frames omitted
+2022-05-07 11:10:19.243 [restartedMain] INFO  com.rvbs.pm.application.Application - Starting Application on LAPTOP-0DG0FV29 with PID 19132 (started by 夏荫荫 in E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management)
+2022-05-07 11:10:19.247 [restartedMain] INFO  com.rvbs.pm.application.Application - The following profiles are active: dev
+2022-05-07 11:10:19.299 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\夏荫荫\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-05-07 11:10:19.300 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-07 11:10:19.300 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-07 11:10:20.152 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'loginMapper' and 'com.rvbs.pm.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:10:20.153 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewInfoMapper' and 'com.rvbs.pm.mapper.TMenuviewInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:10:20.153 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewroleRltMapper' and 'com.rvbs.pm.mapper.TMenuviewroleRltMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:10:20.154 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserdetailInfoMapper' and 'com.rvbs.pm.mapper.TUserdetailInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:10:20.154 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserloginInfoMapper' and 'com.rvbs.pm.mapper.TUserloginInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:10:20.155 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.rvbs.pm.mapper]' package. Please check your configuration.
+2022-05-07 11:10:20.158 [restartedMain] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-05-07 11:10:20.826 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5635 (http)
+2022-05-07 11:10:20.834 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5635"]
+2022-05-07 11:10:20.835 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-07 11:10:20.835 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-05-07 11:10:20.921 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-07 11:10:20.922 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1622 ms
+2022-05-07 11:10:21.021 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-05-07 11:10:21.119 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-05-07 11:10:21.614 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectLoginModel
+2022-05-07 11:10:21.750 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.insert
+2022-05-07 11:10:21.756 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.delete
+2022-05-07 11:10:21.759 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteByMap
+2022-05-07 11:10:21.773 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteById
+2022-05-07 11:10:21.775 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteBatchIds
+2022-05-07 11:10:21.785 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.update
+2022-05-07 11:10:21.787 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.updateById
+2022-05-07 11:10:21.789 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectById
+2022-05-07 11:10:21.790 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectBatchIds
+2022-05-07 11:10:21.794 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectByMap
+2022-05-07 11:10:21.799 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectOne
+2022-05-07 11:10:21.803 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectCount
+2022-05-07 11:10:21.809 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMaps
+2022-05-07 11:10:21.815 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMapsPage
+2022-05-07 11:10:21.819 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectObjs
+2022-05-07 11:10:21.828 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectList
+2022-05-07 11:10:21.835 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectPage
+2022-05-07 11:10:21.836 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-07 11:10:21.838 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-07 11:10:21.838 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-07 11:10:21.927 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.insert
+2022-05-07 11:10:21.932 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.delete
+2022-05-07 11:10:21.934 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMap
+2022-05-07 11:10:21.936 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteById
+2022-05-07 11:10:21.938 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteBatchIds
+2022-05-07 11:10:21.942 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.update
+2022-05-07 11:10:21.944 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateById
+2022-05-07 11:10:21.945 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectById
+2022-05-07 11:10:21.947 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectBatchIds
+2022-05-07 11:10:21.949 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMap
+2022-05-07 11:10:21.952 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectOne
+2022-05-07 11:10:21.955 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectCount
+2022-05-07 11:10:21.958 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMaps
+2022-05-07 11:10:21.962 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMapsPage
+2022-05-07 11:10:21.966 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectObjs
+2022-05-07 11:10:21.968 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectList
+2022-05-07 11:10:21.970 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectPage
+2022-05-07 11:10:21.971 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMultiId
+2022-05-07 11:10:21.972 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateByMultiId
+2022-05-07 11:10:21.973 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMultiId
+2022-05-07 11:10:22.013 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateEnabelFlag
+2022-05-07 11:10:22.014 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.findAllMenu
+2022-05-07 11:10:22.017 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.insert
+2022-05-07 11:10:22.019 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.delete
+2022-05-07 11:10:22.020 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMap
+2022-05-07 11:10:22.021 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteById
+2022-05-07 11:10:22.022 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteBatchIds
+2022-05-07 11:10:22.024 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.update
+2022-05-07 11:10:22.025 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateById
+2022-05-07 11:10:22.025 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectById
+2022-05-07 11:10:22.026 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectBatchIds
+2022-05-07 11:10:22.028 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMap
+2022-05-07 11:10:22.029 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectOne
+2022-05-07 11:10:22.031 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectCount
+2022-05-07 11:10:22.032 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMaps
+2022-05-07 11:10:22.033 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMapsPage
+2022-05-07 11:10:22.035 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectObjs
+2022-05-07 11:10:22.036 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectList
+2022-05-07 11:10:22.038 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectPage
+2022-05-07 11:10:22.038 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMultiId
+2022-05-07 11:10:22.039 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateByMultiId
+2022-05-07 11:10:22.039 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMultiId
+2022-05-07 11:10:22.111 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TUserdetailInfoMapper.selectUserInfo
+2022-05-07 11:10:22.115 [restartedMain] ERROR tk.mybatis.spring.mapper.MapperFactoryBean - Error while adding the mapper 'interface com.rvbs.pm.mapper.TUserdetailInfoMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.apache.ibatis.builder.annotation.ProviderSqlSource.<init>(ProviderSqlSource.java:130)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.buildSqlSource(MybatisMapperAnnotationBuilder.java:627)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.lambda$parseStatement$2(MybatisMapperAnnotationBuilder.java:287)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parseStatement(MybatisMapperAnnotationBuilder.java:286)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:110)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:83)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:152)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.rvbs.pm.application.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-05-07 11:10:22.117 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserdetailInfoServiceImp': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'TUserdetailInfoMapper' defined in file [E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\target\classes\com\rvbs\pm\mapper\TUserdetailInfoMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+2022-05-07 11:10:22.117 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-05-07 11:10:22.118 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-05-07 11:10:22.120 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-05-07 11:10:22.131 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-07 11:10:22.138 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserdetailInfoServiceImp': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'TUserdetailInfoMapper' defined in file [E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\target\classes\com\rvbs\pm\mapper\TUserdetailInfoMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.rvbs.pm.application.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'TUserdetailInfoMapper' defined in file [E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\target\classes\com\rvbs\pm\mapper\TUserdetailInfoMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:86)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 34 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.apache.ibatis.builder.annotation.ProviderSqlSource.<init>(ProviderSqlSource.java:130)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.buildSqlSource(MybatisMapperAnnotationBuilder.java:627)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.lambda$parseStatement$2(MybatisMapperAnnotationBuilder.java:287)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parseStatement(MybatisMapperAnnotationBuilder.java:286)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:110)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:83)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:152)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
+	... 37 common frames omitted
+2022-05-07 11:11:11.507 [restartedMain] INFO  com.rvbs.pm.application.Application - Starting Application on LAPTOP-0DG0FV29 with PID 4088 (started by 夏荫荫 in E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management)
+2022-05-07 11:11:11.511 [restartedMain] INFO  com.rvbs.pm.application.Application - The following profiles are active: dev
+2022-05-07 11:11:11.577 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\夏荫荫\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e5%a4%8f%e8%8d%ab%e8%8d%ab/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-05-07 11:11:11.578 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-07 11:11:11.578 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-07 11:11:12.453 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'loginMapper' and 'com.rvbs.pm.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:11:12.453 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewInfoMapper' and 'com.rvbs.pm.mapper.TMenuviewInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:11:12.454 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TMenuviewroleRltMapper' and 'com.rvbs.pm.mapper.TMenuviewroleRltMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:11:12.454 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserdetailInfoMapper' and 'com.rvbs.pm.mapper.TUserdetailInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:11:12.454 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'TUserloginInfoMapper' and 'com.rvbs.pm.mapper.TUserloginInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-05-07 11:11:12.454 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.rvbs.pm.mapper]' package. Please check your configuration.
+2022-05-07 11:11:12.455 [restartedMain] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisConfigurer' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-05-07 11:11:13.161 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5635 (http)
+2022-05-07 11:11:13.170 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5635"]
+2022-05-07 11:11:13.171 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-07 11:11:13.171 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-05-07 11:11:13.256 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-07 11:11:13.256 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1677 ms
+2022-05-07 11:11:13.405 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-05-07 11:11:13.513 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-05-07 11:11:14.035 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectLoginModel
+2022-05-07 11:11:14.166 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.insert
+2022-05-07 11:11:14.173 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.delete
+2022-05-07 11:11:14.175 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteByMap
+2022-05-07 11:11:14.191 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteById
+2022-05-07 11:11:14.193 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.deleteBatchIds
+2022-05-07 11:11:14.200 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.update
+2022-05-07 11:11:14.203 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.updateById
+2022-05-07 11:11:14.205 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectById
+2022-05-07 11:11:14.206 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectBatchIds
+2022-05-07 11:11:14.208 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectByMap
+2022-05-07 11:11:14.212 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectOne
+2022-05-07 11:11:14.216 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectCount
+2022-05-07 11:11:14.222 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMaps
+2022-05-07 11:11:14.226 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectMapsPage
+2022-05-07 11:11:14.230 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectObjs
+2022-05-07 11:11:14.233 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectList
+2022-05-07 11:11:14.237 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.LoginMapper.selectPage
+2022-05-07 11:11:14.237 [restartedMain] INFO  c.g.j.mybatisplus.base.SelectByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-07 11:11:14.238 [restartedMain] INFO  c.g.j.mybatisplus.base.UpdateByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-07 11:11:14.238 [restartedMain] INFO  c.g.j.mybatisplus.base.DeleteByMultiIdMethod - entity com.rvbs.pm.model.login.LoginModel not contain MppMultiId anno
+2022-05-07 11:11:14.323 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.insert
+2022-05-07 11:11:14.325 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.delete
+2022-05-07 11:11:14.327 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMap
+2022-05-07 11:11:14.328 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteById
+2022-05-07 11:11:14.330 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteBatchIds
+2022-05-07 11:11:14.333 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.update
+2022-05-07 11:11:14.335 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateById
+2022-05-07 11:11:14.335 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectById
+2022-05-07 11:11:14.336 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectBatchIds
+2022-05-07 11:11:14.338 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMap
+2022-05-07 11:11:14.340 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectOne
+2022-05-07 11:11:14.344 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectCount
+2022-05-07 11:11:14.346 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMaps
+2022-05-07 11:11:14.349 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectMapsPage
+2022-05-07 11:11:14.352 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectObjs
+2022-05-07 11:11:14.354 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectList
+2022-05-07 11:11:14.356 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectPage
+2022-05-07 11:11:14.357 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.selectByMultiId
+2022-05-07 11:11:14.359 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.updateByMultiId
+2022-05-07 11:11:14.360 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewInfoMapper.deleteByMultiId
+2022-05-07 11:11:14.401 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.findAllMenu
+2022-05-07 11:11:14.401 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateEnabelFlag
+2022-05-07 11:11:14.404 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.insert
+2022-05-07 11:11:14.406 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.delete
+2022-05-07 11:11:14.407 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMap
+2022-05-07 11:11:14.408 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteById
+2022-05-07 11:11:14.410 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteBatchIds
+2022-05-07 11:11:14.413 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.update
+2022-05-07 11:11:14.415 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateById
+2022-05-07 11:11:14.415 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectById
+2022-05-07 11:11:14.416 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectBatchIds
+2022-05-07 11:11:14.417 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMap
+2022-05-07 11:11:14.419 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectOne
+2022-05-07 11:11:14.421 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectCount
+2022-05-07 11:11:14.423 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMaps
+2022-05-07 11:11:14.425 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectMapsPage
+2022-05-07 11:11:14.427 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectObjs
+2022-05-07 11:11:14.429 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectList
+2022-05-07 11:11:14.431 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectPage
+2022-05-07 11:11:14.431 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.selectByMultiId
+2022-05-07 11:11:14.432 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.updateByMultiId
+2022-05-07 11:11:14.433 [restartedMain] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rvbs.pm.mapper.TMenuviewroleRltMapper.deleteByMultiId
+2022-05-07 11:11:14.504 [restartedMain] ERROR tk.mybatis.spring.mapper.MapperFactoryBean - Error while adding the mapper 'interface com.rvbs.pm.mapper.TUserdetailInfoMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.apache.ibatis.builder.annotation.ProviderSqlSource.<init>(ProviderSqlSource.java:130)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.buildSqlSource(MybatisMapperAnnotationBuilder.java:627)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.lambda$parseStatement$2(MybatisMapperAnnotationBuilder.java:287)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parseStatement(MybatisMapperAnnotationBuilder.java:286)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:110)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:83)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:152)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.rvbs.pm.application.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-05-07 11:11:14.506 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserdetailInfoServiceImp': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'TUserdetailInfoMapper' defined in file [E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\target\classes\com\rvbs\pm\mapper\TUserdetailInfoMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+2022-05-07 11:11:14.506 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-05-07 11:11:14.507 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-05-07 11:11:14.511 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-05-07 11:11:14.524 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-07 11:11:14.533 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TUserdetailInfoServiceImp': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'TUserdetailInfoMapper' defined in file [E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\target\classes\com\rvbs\pm\mapper\TUserdetailInfoMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.rvbs.pm.application.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'TUserdetailInfoMapper' defined in file [E:\agree_mamangerPM\4\agree_mamangerPM\新建文件夹 (2)\agree_management\target\classes\com\rvbs\pm\mapper\TUserdetailInfoMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:86)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 34 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating SqlSource for SqlProvider. Method 'sql' not found in SqlProvider 'com.rvbs.pm.mapper.BeanDataUtil'.
+	at org.apache.ibatis.builder.annotation.ProviderSqlSource.<init>(ProviderSqlSource.java:130)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.buildSqlSource(MybatisMapperAnnotationBuilder.java:627)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.lambda$parseStatement$2(MybatisMapperAnnotationBuilder.java:287)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parseStatement(MybatisMapperAnnotationBuilder.java:286)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:110)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:83)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:152)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
+	... 37 common frames omitted

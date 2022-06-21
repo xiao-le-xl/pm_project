@@ -18,7 +18,11 @@ import com.baomidou.mybatisplus.extension.service.additional.query.impl.QueryCha
 import com.rvbs.pm.model.RequestBean;
 import com.rvbs.pm.model.ResponseBean;
 import com.rvbs.pm.model.TUserdetailInfo;
+import com.rvbs.pm.model.TUserloginInfo;
+import com.rvbs.pm.model.UserInfo;
+import com.rvbs.pm.model.UserInfor;
 import com.rvbs.pm.service.interfaces.TUserdetailInfoService;
+import com.rvbs.pm.service.interfaces.TUserloginInfoService;
 import com.rvbs.pm.tool.ResultTool;
 
 
@@ -31,22 +35,49 @@ import com.rvbs.pm.tool.ResultTool;
 public class TUserdetailInfoWeb {
     @Resource
     private TUserdetailInfoService tUserdetailInfoService;
+    
+    @Resource
+    private TUserloginInfoService tUserLogininfo;
 
+//    @PostMapping("/add")
+//    public ResponseBean<UserInfo> add(@RequestBody RequestBean<UserInfo> requestBean) {
+//    	// 判断用户名或用户名是否为空
+//		if(StringUtils.isBlank(requestBean.getBody().getUsername()) || StringUtils.isBlank(requestBean.getBody().getUserid()) || StringUtils.isBlank(requestBean.getBody().getUsername()) || StringUtils.isBlank(requestBean.getBody().getLevelcompy()) || StringUtils.isBlank(requestBean.getBody().getDepartment()) ) {
+//			return ResultTool.genFailResult(requestBean,"Us001","用户id或用户名或员工级别或所属部门为空，插入失败!");
+//		}
+//		System.out.println("数据不为空"+tUserdetailInfoService);
+//		//插入一条数据
+//	    int insertUserInfo = tUserdetailInfoService.insertUserInfo(requestBean.getBody());
+//	    int inserUserDetailinfo = tUserdetailInfoService.inserUserDetailinfo(requestBean.getBody());
+//		if (insertUserInfo == 0 || inserUserDetailinfo ==0) {
+//			return ResultTool.genFailResult(requestBean,"Us002","插入失败!");
+//		}
+//		return ResultTool.genFailResult(requestBean,"success","插入成功!");
+//    }
+
+    
     @PostMapping("/add")
-    public ResponseBean<TUserdetailInfo> add(@RequestBody RequestBean<TUserdetailInfo> requestBean) {
-    	// 判断用户名或用户名是否为空
-		if(StringUtils.isBlank(requestBean.getBody().getUserid()) || StringUtils.isBlank(requestBean.getBody().getUsername()) || StringUtils.isBlank(requestBean.getBody().getLevelcompy()) || StringUtils.isBlank(requestBean.getBody().getDepartment()) ) {
-			return ResultTool.genFailResult(requestBean,"Us001","用户id或用户名或员工级别或所属部门为空，插入失败!");
+    public ResponseBean<UserInfor> add(@RequestBody RequestBean<UserInfor> requestBean) {
+    	TUserloginInfo userinfo = requestBean.getBody().getUserinfo();
+    	TUserdetailInfo userdetail = requestBean.getBody().getUserdetail();
+    	System.out.println("获取得到的对象userinfo："+userinfo);
+    	System.out.println("获取得到的对象userdetail："+userdetail);
+    	StringBuffer str =new StringBuffer();
+    	if (userinfo != null) {
+    		boolean save2 = tUserLogininfo.save(userinfo);
+    		str.append(save2?"用户登录信息保存成功，":"用户登录信息保存失败");
 		}
-		System.out.println("数据不为空"+tUserdetailInfoService);
-		//插入一条数据
-		boolean save = tUserdetailInfoService.save(requestBean.getBody());
-		if (!save) {
-			return ResultTool.genFailResult(requestBean,"Us002","插入失败!");
+    	if (userdetail != null) {
+    		boolean save = tUserdetailInfoService.save(userdetail);
+    		str.append(save?"用户登录信息保存成功，":"用户登录信息保存失败");
+    		
 		}
-		return ResultTool.genFailResult(requestBean,"success","插入成功!");
+    	if (str.length() ==0) {
+    		return ResultTool.genFailResult(requestBean,"Us002","插入失败!");
+		}
+    	return ResultTool.genFailResult(requestBean,"success",str.toString());
+    	
     }
-
     /**
 	 * 批量新增
 	 * @param request
@@ -117,6 +148,12 @@ public class TUserdetailInfoWeb {
     	// TODO 默认方法生成，如需改动自行修改
         TUserdetailInfo tUserdetailInfo = tUserdetailInfoService.getById(requestBean.getBody());
         return ResultTool.genSuccessResult(requestBean,tUserdetailInfo);
+//    	int pageNum = Integer.parseInt(requestBean.getApp_head().getPageNum());
+//        int pageSize=Integer.parseInt(requestBean.getApp_head().getPageSize());
+//    	List<UserInfo> selectUserInfo = tUserdetailInfoService.selectUserInfo(requestBean.getBody(), pageNum*pageSize, pageSize, "t_userdetail_info","t_userlogin_info");
+//		return ResultTool.genSuccessResult(requestBean,selectUserInfo);
+
+    	
     }
 
     @PostMapping("/list")

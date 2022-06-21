@@ -54,7 +54,7 @@ public class CodeGenerator {
     	
     	//test.sql
     	
-        genCode("t_userlogin_info");
+        genCode("t_menuview_info");
         //dormitory_info
         //genCodeByCustomModelName("输入表名","输入自定义Model名称");
     }

@@ -5,12 +5,13 @@
     <!--
       WARNING - @mbg.generated
     -->
-    <id column="MENUVIEWNUM" jdbcType="INTEGER" property="menuviewnum" />
+    <id column="MENUVIEWNUM" jdbcType="VARCHAR" property="menuviewnum" />
     <id column="MENUNUM" jdbcType="VARCHAR" property="menunum" />
     <result column="MENUVIEWNAME" jdbcType="VARCHAR" property="menuviewname" />
     <result column="MENUNAME" jdbcType="VARCHAR" property="menuname" />
     <result column="PARENTMENUNUM" jdbcType="VARCHAR" property="parentmenunum" />
     <result column="ISVISIBLE" jdbcType="VARCHAR" property="isvisible" />
+    <result column="MENUICON" jdbcType="VARCHAR" property="menuicon" />
     <result column="REMARK1" jdbcType="VARCHAR" property="remark1" />
     <result column="REMARK2" jdbcType="VARCHAR" property="remark2" />
     <result column="REMARK3" jdbcType="VARCHAR" property="remark3" />
